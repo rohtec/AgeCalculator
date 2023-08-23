@@ -18,7 +18,7 @@ View the optimal layout for the interface depending on their device's screen siz
 See hover and focus states for all interactive elements on the page
 Links
 Designs URL:
-Solution URL: 
+Solution URL: https://github.com/rohtec/AgeCalculator.git 
 Live Site URL: https://rohtec.github.io/AgeCalculator/
 
 Built with
