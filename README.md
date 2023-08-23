@@ -17,7 +17,7 @@ The date is invalid e.g. 31/04/1991 (there are 30 days in April)
 View the optimal layout for the interface depending on their device's screen size
 See hover and focus states for all interactive elements on the page
 Links
-Designs URL:
+Designs URL: https://github.com/rohtec/AgeCalculator/tree/main/myApp-designs
 Solution URL: https://github.com/rohtec/AgeCalculator.git 
 Live Site URL: https://rohtec.github.io/AgeCalculator/
 
