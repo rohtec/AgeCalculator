@@ -250,7 +250,7 @@ h1 {
 
               .container {
                 background-color: rgb(255, 255, 255);
-                height: 59vh;
+                height: 56vh;
                 width: 45vh;
                 border-top-right-radius: 20px;
                 border-top-left-radius: 20px;
@@ -364,7 +364,7 @@ h1 {
 
                 h2 {
                     color: rgba(21,21,21,1);
-                    font-size: 3.5rem;
+                    font-size: 4rem;
                     font-family: Poppins;
                     font-style: italic;
                     letter-spacing: -3.5px;
@@ -377,7 +377,7 @@ h1 {
                 }
 
                 span {
-                    font-size: 3.4rem;
+                    font-size: 3.9rem;
                     color: rgb(136,78,255);
                     font-weight: bolder;
                     word-spacing: -13px;
