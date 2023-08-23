@@ -268,7 +268,7 @@ h1 {
             .nav1 {
                 display: flex; 
                 width: 100%;
-                gap: 7.0%;
+                gap: 8.0%;
                 margin-bottom: 15.5%;
             }
             
@@ -291,11 +291,11 @@ h1 {
 
             .navv{
                     display: flex;
-                    gap: 7%;
+                    gap: 6%;
                 }
 
                 #birthDay, #birthMonth, #birthYear {
-                    width: 5.1rem;
+                    width: 4.6rem;
                     height: 3.0rem;
                     border-radius: 4px;
                     border: 1px solid #e5e5e5;
@@ -359,7 +359,7 @@ h1 {
 
                 .bodycontainer {
                     line-height:1.1;
-                    margin-top: 0.4%;
+                    margin-top: -2.4%;
                 }
 
                 h2 {
