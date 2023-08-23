@@ -235,7 +235,6 @@ h1 {
                 align-items: center;
                 height: 100vh;
                 background-color: rgb(240,240,240);
-	        position:fixed;
               }
 
             .parent {
