@@ -257,8 +257,7 @@ h1 {
                 border-top-left-radius: 20px;
                 border-bottom-right-radius: 100px;
                 border-bottom-left-radius: 20px;
-                padding: 6%;
-		position:fixed;     
+                padding: 6%;     
               }
               
               .nav {
@@ -301,7 +300,6 @@ h1 {
                     height: 3.0rem;
                     border-radius: 4px;
                     border: 1px solid #e5e5e5;
-		    position:fixed;
                 }
 
                 hr {
@@ -367,7 +365,7 @@ h1 {
 
                 h2 {
                     color: rgba(21,21,21,1);
-                    font-size: 4rem;
+                    font-size: 3.8rem;
                     font-family: Poppins;
                     font-style: italic;
                     letter-spacing: -3.5px;
@@ -380,7 +378,7 @@ h1 {
                 }
 
                 span {
-                    font-size: 3.9rem;
+                    font-size: 3.7rem;
                     color: rgb(136,78,255);
                     font-weight: bolder;
                     word-spacing: -13px;
