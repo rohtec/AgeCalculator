@@ -235,6 +235,7 @@ h1 {
                 align-items: center;
                 height: 100vh;
                 background-color: rgb(240,240,240);
+	        position:fixed;
               }
 
             .parent {
@@ -257,6 +258,7 @@ h1 {
                 border-bottom-right-radius: 100px;
                 border-bottom-left-radius: 20px;
                 padding: 6%;
+		position:fixed;     
               }
               
               .nav {
@@ -268,7 +270,7 @@ h1 {
             .nav1 {
                 display: flex; 
                 width: 100%;
-                gap: 7.0%;
+                gap: 5.0%;
                 margin-bottom: 15.5%;
             }
             
@@ -299,6 +301,7 @@ h1 {
                     height: 3.0rem;
                     border-radius: 4px;
                     border: 1px solid #e5e5e5;
+		    position:fixed;
                 }
 
                 hr {
