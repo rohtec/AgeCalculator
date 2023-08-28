@@ -132,7 +132,7 @@ input{
     table, td,tr {
 /*    	border: 1px solid blue;*/
     	font-family: Poppins;
-    	font-size: 37px;
+    	font-size: 30px;
     	font-weight: bolder;
     	font-style: italic;
     	line-height: 1;
@@ -141,14 +141,14 @@ input{
 
     #resultYear, #resultMonth, #resultDay {
     	color: RGB(179 99 230);
-    	padding-right: 6px;
+    	padding-right: 3px;
         font-family: Poppins;
     	font-size: 40px;
     	font-weight: bolder;
     	font-style: italic;
         float: right;
         padding-top: 4px;
-	letter-spacing:-8px
+	letter-spacing:-15px
     }
 
     button {
