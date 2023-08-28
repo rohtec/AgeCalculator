@@ -18,7 +18,7 @@ function calculateAge() {
     }
    if (months < 0) {
         years--;
-        months += 13;
+        months += 12;
     }
     if (months === 12) {
         years++;
