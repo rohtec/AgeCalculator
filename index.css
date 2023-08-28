@@ -83,7 +83,7 @@ input{
     .last {
 /*    border: 1px solid black;*/
     height: 1rem;
-	width: 94%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom:13%;
@@ -123,10 +123,10 @@ input{
     }
 
     #day1 {
-    	padding-right: 28%;
+    	padding-right: 27.4%;
     }
     #mon1 {
-    	padding-right: 19.5%;
+    	padding-right: 18.5%;
     }
 
     table, td,tr {
