@@ -39,7 +39,7 @@ main{
 	display: flex;
 	width: 90%;
 	margin-bottom: 1%;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 }
 .middle{
     height: 3rem;
@@ -62,7 +62,7 @@ input{
 
  input:active, input:focus {
 
-    outline-color:rgba(136,78,255,0.8);
+    outline-color:rgba(136,78,255,0.9);
     font-family: poppins;
 }
 
@@ -122,12 +122,12 @@ input{
     letter-spacing: 2px;
     }
 
-    /*#day1 {
+    #day1 {
     	padding-right: 24%;
     }
     #mon1 {
     	padding-right: 15%;
-    }*/
+    }
 
     table, td,tr {
 /*    	border: 1px solid blue;*/
@@ -141,14 +141,14 @@ input{
 
     #resultYear, #resultMonth, #resultDay {
     	color: RGB(179 99 230);
-    	padding-right: 3px;
+    	padding-right: 4px;
         font-family: Poppins;
     	font-size: 40px;
     	font-weight: bolder;
     	font-style: italic;
         float: right;
         padding-top: 4px;
-	letter-spacing:-15px
+	letter-spacing:-9px
     }
 
     button {
