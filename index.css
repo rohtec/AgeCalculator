@@ -28,7 +28,7 @@ main{
 	margin: auto;
 	background-color: white;
 	width: 60%;
-	height: 49%;
+	height: 48%;
 	padding: 5%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -132,7 +132,7 @@ input{
     table, td,tr {
 /*    	border: 1px solid blue;*/
     	font-family: Poppins;
-    	font-size: 30px;
+    	font-size: 37px;
     	font-weight: bolder;
     	font-style: italic;
     	line-height: 1;
@@ -148,7 +148,7 @@ input{
     	font-style: italic;
         float: right;
         padding-top: 4px;
-	letter-spacing:3px
+	letter-spacing:-8px
     }
 
     button {
