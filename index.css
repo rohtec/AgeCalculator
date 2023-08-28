@@ -1,94 +1,161 @@
-* {
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+}
+li {
+	list-style-type: none;
+	flex-wrap:wrap;
+}
+@media all and (max-width: 500px) {
+
+*{ 
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-color: black;
-  }
-
-  .parent {
-    background-color: rgb(240,240,240);
-    height: 100vh;
-    width: 160vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container {
-    background-color: rgb(255, 255, 255);
-    height: 71vh;
-    width: 90vh;
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
-	border-bottom-right-radius: 165px;
-	border-bottom-left-radius: 20px;
-    padding: 4%;
-  }
-  
-  .nav {
-	display: flex; 
-    width: 100%;
-    margin-bottom: 0.5%;
+main{
+	height: 100vh;
+	background-color: #e5e5e5;
+	margin: 0 15%;
+	display: flex;
+}
+.parent{
+	margin: auto;
+	background-color: white;
+	width: 95%;
+	height: 56%;
+	padding: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:80px;
+    border-bottom-left-radius: 20px;
+} 
+.head{
+	display: flex;
+	width: 100%;
+	margin-bottom: 1%;
+}
+.middle{
+    height: 3rem;
+	width: 100%;
+	display: flex;
+	flex-wrap:nowrap;
+}
+input{
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: bolder;
+    padding-left: 6px;
+    cursor: pointer;
 }
 
-.nav1 {
-    display: flex; 
-    width: 100%;
-    gap: 6.1%;
-    margin-bottom: 5%;
+ input:active, input:focus {
+
+    outline-color:rgba(136,78,255,0.8);
+    font-family: poppins;
 }
 
-#day {
-	padding-right: 21.5%;
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+
+    -webkit-appearance:none;
 }
 
-#mon {
-	padding-right: 18%;
+    ::placeholder {
+
+    color:rgba(36,36,36,0.6) ;
+    font-weight: bolder;
+    font-size:19px;
+    font-family: poppins;
+}
+    
+    .last {
+/*    border: 1px solid black;*/
+    height: 1rem;
+	width: 98%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:13%;
+	align-items: center;
+}
+    
+    p {
+    width: 5rem;
+	font-size: 7px;
+    color: red;
+    font-family: Poppins;
+    font-weight: bolder;
+    display: none;
+/*    border: 1px solid green;*/
 }
 
-h1 {
-	font-family: Poppins;
-	color: rgba(36,36,36,0.7);
-	font-weight: bolder;
-	font-size: 0.70rem;
-	letter-spacing: 2.3px;
-	font-variant: small-caps;
-}
-
-   .navv {
-        display: flex;
-        width: 100%;
-        gap: 5%;
+    #dem, #dem1, #dem2 { 
+     display: flex;
+     height: 14px;
+     align-items: center;
+            width: 5.1rem;
+            font-size: 7px;
+            font-family: poppins;
+            font-weight: bolder;
+            font-weight: 500;
+            word-spacing: 0.5px;
+            color: #D51E1E;
+            justify-content: space-between;
+/*            border: 1px solid blueviolet;*/
+          }
+    
+    #day1, #mon1, #year1 {
+    font-size: 10.5px;
+    color: rgba(36, 36, 36, 0.8);
+    font-family: poppins;
+    font-weight: bolder;
+    letter-spacing: 2px;
     }
 
-    #birthDay, #birthMonth, #birthYear {
-        width: 8.2rem;
-        height: 3.4rem;
-        border-radius: 4px;
-        border: 1px solid #e5e5e5;
+    #day1 {
+    	padding-right: 24%;
+    }
+    #mon1 {
+    	padding-right: 15%;
     }
 
-    hr {
-        border: 1px solid #e5e5e5;
+    table, td,tr {
+/*    	border: 1px solid blue;*/
+    	font-family: Poppins;
+    	font-size: 33px;
+    	font-weight: bolder;
+    	font-style: italic;
+    	line-height: 1.2;
+    	letter-spacing: -2.5px;
+    }
+    .body-container {
+/*    	border: 1px solid red;*/
+    	margin-top:3%;
+    }
+   
+    #resultYear, #resultMonth, #resultDay {
+    	color: RGB(179 99 230);
+    	padding-right: 3px;
     }
 
     button {
-        margin-left: 87%;
-        transform: translateY(-35px);
-        height: 5rem;
-        width: 5rem;
+        margin-left: 38.5%;
+        transform: translateY(-25px);
+        height: 3.3rem;
+        width: 3.3rem;
         border-radius: 50%;
         border: none;
+
     }
 
     #submitButton {
@@ -98,319 +165,172 @@ h1 {
     }
 
     img {
-        height: 2.4rem;
+        height: 1.5rem;
     }
 
     #submitButton:hover {
         background-color: rgb(19,19,19);
     }
 
-    ::placeholder {
-        color:rgba(36,36,36,0.6) ;
-        font-weight: bolder;
-        font-size:25px;
-        font-family: poppins;
-    }
+}
 
-    input {
-        border-radius: 6px;
-        color: rgba(36,36,36,1);
-        font-weight: bolder;
-        font-size: 28px;
-        font-family: poppins;
-        padding-left: 8%;
-        caret-color: #864CFC;
-        caret-shape: block;
+@media all and (min-width: 601px) { 
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main {
+    background-color: #e5e5e5;
+    height: 99vh;
+	margin: 0 15%;
+	display: flex;
+}
+.parent {
+	padding: 4%;
+	margin: auto;
+	background-color: white;
+	width: 58%;
+	height: 67%;
+	border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:120px ;
+    border-bottom-left-radius: 30px;
+}
+.head {
+    display: flex;
+	width: 93%;
+	margin-bottom: 0.3%;
+}
+input {
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 1px solid #BBBFC2;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: bolder;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+input:active, input:focus {
+
+    outline-color:rgba(136,78,255,0.8);
+    font-family: poppins;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+    -webkit-appearance:none;
+}
+
+::placeholder {
+
+    color:rgba(36,36,36,0.6) ;
+    font-weight: bolder;
+    font-size:25px;
+    font-family: poppins;
+}
+
+.middle {
+    height: 3.5rem;
+	width: 93%;
+	display: flex;
+}
+.last {
+    height: 1rem;
+	width: 90%;
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5.5%;
+}
+
+p {
+	font-size: 10px;
+    color: red;
+    font-family: poppins;
+    width: 7.9rem;
+    font-weight: bolder;
+    width: 9rem;
+    display: none;
+
+}
+
+#day1, #mon1, #year1 {
+    font-size: 12px;
+    color: rgba(36, 36, 36, 0.8);
+    font-family: poppins;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+ #day1 {
+    	padding-right: 28%;
+}
+#mon1 {
+    	padding-right: 22%;
+}
+
+table, td,tr {
+
+    	font-family: Poppins;
+    	font-size: 55px;
+    	font-weight: bolder;
+    	font-style: italic;
+    	line-height: 1;
+    	letter-spacing: -2.5px;
+}
+
+.body-container {
+    	margin-top: 7%;
+}
+  
+#resultYear, #resultMonth, #resultDay {
+    	color: RGB(179 99 230);
+    	padding-right: 3px;
+}
+
+button {
+
+        float: right;
+        transform: translateY(-35px);
+        height: 4.7rem;
+        width: 4.7rem;
+        border-radius: 50%;
+        border: none;
+    
+}
+
+#submitButton {
+        background-color: rgb(136,78,255);
         cursor: pointer;
-    }
+        border: none;
+}
 
-    input:active,
-    input:focus {
-          outline-color:rgba(136,78,255,0.8);
-          font-family: poppins;
-    }
+img {
+        height: 2.2rem;
+}
 
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-        -webkit-appearance:none;
-    }
+#submitButton:hover {
+        background-color: rgb(19,19,19);
+}
 
-    form {
-        height: 30%;
-    }
+#dem, #dem1, #dem2 { 
+        display: flex;
+        height: 14px;
+        width: 9.7rem;
+        font-size: 0.65rem;
+        font-family: poppins;
+        font-weight: bolder;
+        font-weight: 500;
+        word-spacing: 0.5px;
+        color: #D51E1E;
+        justify-content: space-between;
+    
+}
+}
 
-    .bodycontainer {
-            margin-top: -6.5%;
-            line-height:1.05;
-        }
 
-        h2 {
-            color: rgba(21,21,21,1);
-            font-size: 5.5rem;
-            font-family: Poppins;
-            font-style: italic;
-            letter-spacing: -3.5px;
-        }
-
-        .yearr, .montt,.dayy {
-            display: flex;
-            height: 30%;
-            font-family: poppins;
-        }
-
-        span {
-            font-size: 5.3rem;
-            color: rgb(136,78,255);
-            font-weight: bolder;
-            word-spacing: -13px;
-            margin-top: 0.5%;
-        }
-
-        #resultYear, #resultMonth, #resultDay {
-            font-style: italic;
-            display: block;
-            margin-right: 1.5%;
-        }
-        
-        #demo, #demo1, #demo2 {
-            display: flex;
-            height: 14px;
-            width: 7.7rem;
-            display: none;
-            margin-top: 2%;
-            font-size: 0.7rem;
-            font-family: poppins;
-            font-weight: 500;
-            word-spacing: 0.5px;
-            color: #D51E1E;
-            padding-left: 0px;
-        }
-
-        #demo {
-            margin-left: 0px;
-        }
-
-        #demo1 {
-            margin-left: -4px;
-        }
-
-        #demo2 {
-            margin-left: -9px;
-        }
-        
-        #dem, #dem1, #dem2 { 
-            display: flex;
-            height: 14px;
-            width: 7.9rem;
-            font-size: 0.65rem;
-            font-family: poppins;
-            font-weight: bolder;
-            font-weight: 500;
-            word-spacing: 0.5px;
-            color: #D51E1E;
-          }
-        
-        #dem1 {
-            margin-left: -2px;
-        }
-
-        #dem2{
-            margin-left: -2px;
-        }
-
- 
-         @media only screen and ( max-width : 600px ) {
-
-            * {
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
-            }
-            
-            body {
-                margin: 0;
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                background-color: rgb(240,240,240);
-              }
-
-            .parent {
-                background-color: rgb(240,240,240);
-                height: 100vh;
-                width: 64vh;
-                margin: 0;
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-
-              .container {
-                background-color: rgb(255, 255, 255);
-                height: 56vh;
-                width: 45vh;
-                border-top-right-radius: 20px;
-                border-top-left-radius: 20px;
-                border-bottom-right-radius: 100px;
-                border-bottom-left-radius: 20px;
-                padding: 6%;     
-              }
-              
-              .nav {
-                display: flex; 
-                width: 100%;
-                margin-bottom: 1%;
-            }
-
-            .nav1 {
-                display: flex; 
-                width: 100%;
-                gap: 5.0%;
-                margin-bottom: 15.5%;
-            }
-            
-            #day {
-                padding-right: 26.5%;
-            }
-
-            #mon {
-                padding-right: 16.5%;
-            }
-
-            h1 {
-                font-family: Poppins;
-                color: rgba(36,36,36,0.7);
-                font-weight: bolder;
-                font-size: 0.65rem;
-                letter-spacing: 2.3px;
-                font-variant: small-caps;
-            }
-
-            .navv{
-                    display: flex;
-                    gap: 7%;
-                }
-
-                #birthDay, #birthMonth, #birthYear {
-                    width: 5.0rem;
-                    height: 3.0rem;
-                    border-radius: 4px;
-                    border: 1px solid #e5e5e5;
-                }
-
-                hr {
-                    border: 1px solid #e5e5e5;
-                }
-
-                button {
-                    margin-left: 40%;
-                    height: 3.8rem;
-                    width: 3.8rem;
-                    border-radius: 50%;
-                    border: none;
-                }
-
-                #submitButton {
-                    background-color: rgb(136,78,255);
-                    cursor: pointer;
-                    border: none;
-                }
-
-                img {
-                    height: 1.7rem;
-                }
-
-                #submitButton:hover {
-                    background-color: rgb(19,19,19);
-                }
-
-                input {
-                    border-radius: 6px;
-                    color: rgba(36,36,36,1);
-                    font-weight: bolder;
-                    font-size: 21px;
-                    font-family: poppins;
-                    padding-left: 8%;
-                    caret-color: #864CFC;
-                    caret-shape: block;
-                    cursor: pointer;
-                }
-
-                input:active,
-                input:focus {
-                      outline-color:rgba(136,78,255,0.8);
-                      font-family: poppins;
-                }
-
-                input::-webkit-outer-spin-button,
-                input::-webkit-inner-spin-button {
-                    -webkit-appearance:none;
-                }
-
-                ::placeholder {
-                    color:rgba(36,36,36,0.6) ;
-                    font-weight: bolder;
-                    font-size:19px;
-                    font-family: poppins;
-                }
-
-                .bodycontainer {
-                    line-height:1.1;
-                    margin-top: -1.4%;
-                }
-
-                h2 {
-                    color: rgba(21,21,21,1);
-                    font-size: 3.5rem;
-                    font-family: Poppins;
-                    font-style: italic;
-                    letter-spacing: -3.5px;
-                }
-
-                .yearr, .montt,.dayy {
-                    display: flex;
-                    height: 30%;
-                    font-family: poppins;
-                }
-
-                span {
-                    font-size: 3.4rem;
-                    color: rgb(136,78,255);
-                    font-weight: bolder;
-                    word-spacing: -13px;
-                }
-
-                #resultYear, #resultMonth, #resultDay {
-                    font-style: italic;
-                    margin-right: 1.5%;
-                }
-                
-                #demo, #demo1, #demo2 {
-                    display: flex;
-                    height: 14px;
-                    width: 7.7rem;
-                    display: none;
-                    margin-top: 2%;
-                    font-size: 0.6rem;
-                    font-family: poppins;
-                    font-weight: 500;
-                    word-spacing: 0.5px;
-                    color: #D51E1E;
-                    padding-left: 0px;
-                }
-
-                #dem, #dem1, #dem2 { 
-                    display: flex;
-                    height: 14px;
-                    width: 8.2rem;
-                    font-size: 0.42rem;
-                    font-family: poppins;
-                    font-weight: bolder;
-                    font-weight: 500;
-                    word-spacing: 0.4px;
-                    color: #D51E1E;
-                }
-           }      
