@@ -132,7 +132,7 @@ input{
     table, td,tr {
 /*    	border: 1px solid blue;*/
     	font-family: Poppins;
-    	font-size: 33px;
+    	font-size: 30px;
     	font-weight: bolder;
     	font-style: italic;
     	line-height: 1;
@@ -143,7 +143,7 @@ input{
     	color: RGB(179 99 230);
     	padding-right: 5 px;
         font-family: Poppins;
-    	font-size: 41px;
+    	font-size: 40px;
     	font-weight: bolder;
     	font-style: italic;
         float: right;
