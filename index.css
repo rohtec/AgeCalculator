@@ -21,15 +21,15 @@ li {
 main{
 	height: 100vh;
 	background-color: #e5e5e5;
-	margin: 0 15%;
+	margin: 0;
 	display: flex;
 }
 .parent{
 	margin: auto;
 	background-color: white;
-	width: 95%;
-	height: 56%;
-	padding: 10%;
+	width: 60%;
+	height: 49%;
+	padding: 6%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius:80px;
@@ -37,8 +37,9 @@ main{
 } 
 .head{
 	display: flex;
-	width: 100%;
+	width: 90%;
 	margin-bottom: 1%;
+	justify-content: space-between;
 }
 .middle{
     height: 3rem;
@@ -111,41 +112,42 @@ input{
             word-spacing: 0.5px;
             color: #D51E1E;
             justify-content: space-between;
-/*            border: 1px solid blueviolet;*/
           }
     
     #day1, #mon1, #year1 {
-    font-size: 10.5px;
+    font-size: 9.5px;
     color: rgba(36, 36, 36, 0.8);
     font-family: poppins;
     font-weight: bolder;
     letter-spacing: 2px;
     }
 
-    #day1 {
+    /*#day1 {
     	padding-right: 24%;
     }
     #mon1 {
     	padding-right: 15%;
-    }
+    }*/
 
     table, td,tr {
 /*    	border: 1px solid blue;*/
     	font-family: Poppins;
-    	font-size: 33px;
+    	font-size: 30px;
     	font-weight: bolder;
     	font-style: italic;
-    	line-height: 1.2;
-    	letter-spacing: -2.5px;
+    	line-height: 1;
+        letter-spacing: -2.5px;
     }
-    .body-container {
-/*    	border: 1px solid red;*/
-    	margin-top:3%;
-    }
-   
+
     #resultYear, #resultMonth, #resultDay {
     	color: RGB(179 99 230);
-    	padding-right: 3px;
+    	padding-right: 6px;
+        font-family: Poppins;
+    	font-size: 40px;
+    	font-weight: bolder;
+    	font-style: italic;
+        float: right;
+        padding-top: 4px;
     }
 
     button {
@@ -274,7 +276,7 @@ p {
     	padding-right: 22%;
 }
 
-table, td,tr {
+table, td, tr {
 
     	font-family: Poppins;
     	font-size: 55px;
@@ -282,16 +284,23 @@ table, td,tr {
     	font-style: italic;
     	line-height: 1;
     	letter-spacing: -2.5px;
+/*    	border: 1px solid red;*/
+}
+#resultYear, #resultMonth, #resultDay {
+    color: RGB(179 99 230);
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: italic;
+    float: right;
+    padding-top: 10px;
+    padding-right: 5px;
 }
 
 .body-container {
     	margin-top: 7%;
 }
   
-#resultYear, #resultMonth, #resultDay {
-    	color: RGB(179 99 230);
-    	padding-right: 3px;
-}
 
 button {
 
@@ -332,5 +341,6 @@ img {
     
 }
 }
+
 
 
