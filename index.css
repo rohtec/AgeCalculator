@@ -123,10 +123,10 @@ input{
     }
 
     #day1 {
-    	padding-right: 24%;
+    	padding-right: 26%;
     }
     #mon1 {
-    	padding-right: 15%;
+    	padding-right: 17%;
     }
 
     table, td,tr {
@@ -141,14 +141,14 @@ input{
 
     #resultYear, #resultMonth, #resultDay {
     	color: RGB(179 99 230);
-    	padding-right: 4px;
+    	padding-right: 5 px;
         font-family: Poppins;
     	font-size: 40px;
     	font-weight: bolder;
     	font-style: italic;
         float: right;
         padding-top: 4px;
-	letter-spacing:-9px
+	letter-spacing: 3px
     }
 
     button {
