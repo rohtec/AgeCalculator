@@ -10,7 +10,7 @@ li {
 	list-style-type: none;
 	flex-wrap:wrap;
 }
-@media all and (max-width: 481px) {
+@media all and (max-width: 500px) {
 
 *{ 
 	padding: 0;
@@ -126,7 +126,7 @@ input{
     	padding-right: 26%;
     }
     #mon1 {
-    	padding-right: 17%;
+    	padding-right: 18.5%;
     }
 
     table, td,tr {
@@ -148,7 +148,7 @@ input{
     	font-style: italic;
         float: right;
         padding-top: 4px;
-	letter-spacing: 3px
+	letter-spacing: -2px
     }
 
     button {
